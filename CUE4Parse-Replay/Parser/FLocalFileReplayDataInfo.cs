@@ -1,4 +1,4 @@
-﻿namespace CUE4Parse_Replay;
+﻿namespace CUE4Parse_Replay.Parser;
 
 public class FLocalFileReplayDataInfo
 {

@@ -1,4 +1,4 @@
-﻿using CUE4Parse_Replay;
+﻿using CUE4Parse_Replay.Parser;
 using CUE4Parse.UE4.Readers;
 using Newtonsoft.Json;
 using Serilog;

@@ -1,6 +1,6 @@
 ﻿using CUE4Parse.UE4.Readers;
 
-namespace CUE4Parse_Replay;
+namespace CUE4Parse_Replay.Parser;
 
 public class FDateTime
 {

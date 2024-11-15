@@ -3,7 +3,7 @@ using CUE4Parse.UE4.Objects.Core.Serialization;
 using CUE4Parse.UE4.Readers;
 using Serilog;
 
-namespace CUE4Parse_Replay;
+namespace CUE4Parse_Replay.Parser;
 
 public class FLocalFileNetworkReplayStreamer
 {
