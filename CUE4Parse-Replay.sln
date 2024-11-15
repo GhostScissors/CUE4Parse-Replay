@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse-Replay", "CUE4Parse-Replay.csproj", "{13530CA8-3B83-4131-8665-F772E829C272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse", "CUE4Parse\CUE4Parse\CUE4Parse.csproj", "{D65D2070-D671-4816-ABE2-A5D77D3DD11B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{13530CA8-3B83-4131-8665-F772E829C272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13530CA8-3B83-4131-8665-F772E829C272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13530CA8-3B83-4131-8665-F772E829C272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65D2070-D671-4816-ABE2-A5D77D3DD11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65D2070-D671-4816-ABE2-A5D77D3DD11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65D2070-D671-4816-ABE2-A5D77D3DD11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65D2070-D671-4816-ABE2-A5D77D3DD11B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

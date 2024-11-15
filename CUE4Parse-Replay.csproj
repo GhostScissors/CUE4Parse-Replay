@@ -8,4 +8,21 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="CUE4Parse\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="CUE4Parse\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="CUE4Parse\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="CUE4Parse\CUE4Parse-Conversion\CUE4Parse-Conversion.csproj" />
+      <ProjectReference Include="CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+    </ItemGroup>
+
 </Project>
