@@ -1,7 +1,7 @@
 ﻿using CUE4Parse.UE4.Objects.Core.Misc;
 using CUE4Parse.UE4.Objects.Core.Serialization;
 
-namespace CUE4Parse_Replay.ReplayDumper;
+namespace CUE4Parse_Replay;
 
 public class FLocalFileSerializationInfo
 {

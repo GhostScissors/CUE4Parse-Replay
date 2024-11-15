@@ -3,7 +3,7 @@ using CUE4Parse.UE4.Objects.Core.Serialization;
 using CUE4Parse.UE4.Readers;
 using Serilog;
 
-namespace CUE4Parse_Replay.ReplayDumper;
+namespace CUE4Parse_Replay;
 
 public class FLocalFileNetworkReplayStreamer
 {
@@ -233,7 +233,7 @@ public class FLocalFileNetworkReplayStreamer
                     break;
                 }
                 case ELocalFileChunkType.Unknown:
-                    Log.Information("ReadReplayInfo: Skipping unknown (cleared) chunk");
+                    Log.Verbose("ReadReplayInfo: Skipping unknown (cleared) chunk");
                     break;
                 default:
                     Log.Warning("ReadReplayInfo: Unhandled file chunk type: {val}", (uint)chunkType);
